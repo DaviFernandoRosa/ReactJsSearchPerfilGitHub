@@ -10,7 +10,7 @@ const Repos = () => {
 
     return (
         <Container>
-            <ReposContainer name="Anthony Vinicius" repos={ctx.userRepos} />
+            <ReposContainer name={ctx.userData?.name} repos={ctx.userRepos} />
         </Container>
     );
 }
