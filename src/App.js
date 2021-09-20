@@ -3,7 +3,9 @@ import { ContextProvider } from './context';
 
 const App = () => (
     <ContextProvider>
+    
         <Routes />
+    
     </ContextProvider>
 );
 
