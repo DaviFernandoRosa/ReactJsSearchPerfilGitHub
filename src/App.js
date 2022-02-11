@@ -8,5 +8,4 @@ const App = () => (
     
     </ContextProvider>
 );
-
 export default App;
